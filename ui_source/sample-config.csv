@@ -1,0 +1,2 @@
+database_name,cluster_type,region,rds_instance,aurora_cluster,target_parameter_family,target_engine_version,bucket_name
+mysql571,RDS,us-east-1,mysql571,,mysql8.0,8.0.40,dms-upgrader-application

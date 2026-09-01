@@ -1,0 +1,107 @@
+/* Custom styles for Cloudscape components */
+.app-layout {
+  min-height: 100vh;
+}
+
+.navigation-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navigation-toggle {
+    display: block;
+  }
+}
+
+.file-upload-area {
+  border: 2px dashed #d5dbdb;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  background-color: #fafbfc;
+  transition: border-color 0.2s;
+}
+
+.file-upload-area:hover {
+  border-color: #879596;
+}
+
+.file-upload-area.drag-over {
+  border-color: #0972d3;
+  background-color: #f1f8ff;
+}
+
+.upload-icon {
+  font-size: 48px;
+  color: #879596;
+  margin-bottom: 16px;
+}
+
+.instance-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.instance-detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5f6b7a;
+  margin-bottom: 2px;
+}
+
+.detail-value {
+  font-size: 14px;
+  color: #16191f;
+}
+
+.cluster-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.cluster-rds {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.cluster-aurora {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.selection-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.table-selection-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.api-endpoint-section {
+  margin-bottom: 24px;
+}
+
+.upgrade-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

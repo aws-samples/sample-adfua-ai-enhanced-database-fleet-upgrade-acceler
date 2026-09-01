@@ -1,0 +1,14 @@
+# Exclude everything not needed for the Docker build.
+# This prevents local venvs, caches, and IDE files from
+# invalidating the CDK content hash and triggering unnecessary rebuilds.
+
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/.env
+**/*.log
+**/.DS_Store
+**/Thumbs.db

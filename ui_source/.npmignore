@@ -1,0 +1,14 @@
+# Exclude files that don't affect the React build output.
+# This keeps the CDK content hash stable so unnecessary rebuilds are avoided.
+
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+coverage/

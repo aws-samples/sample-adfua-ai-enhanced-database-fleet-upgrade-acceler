@@ -1,0 +1,27 @@
+# Dependencies
+ui_source/node_modules/
+node_modules/
+
+# Build output
+ui_source/build/
+ui_build.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+cdk.out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CDK cached context (contains account-specific data)
+cdk.context.json
